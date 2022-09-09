@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/foreorder-employee-android-master.iml" filepath="$PROJECT_DIR$/.idea/modules/foreorder-employee-android-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Libraries/ActivityAnimatorUtility/app/foreorder-employee-android-master.activityanimatorutility.iml" filepath="$PROJECT_DIR$/.idea/modules/Libraries/ActivityAnimatorUtility/app/foreorder-employee-android-master.activityanimatorutility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/foreorder-employee-android-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/foreorder-employee-android-master.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Libraries/foreorder-library-android/app/foreorder-employee-android-master.foreorder-library-android.iml" filepath="$PROJECT_DIR$/.idea/modules/Libraries/foreorder-library-android/app/foreorder-employee-android-master.foreorder-library-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Libraries/GeneralUtilities/app/foreorder-employee-android-master.generalutilities.iml" filepath="$PROJECT_DIR$/.idea/modules/Libraries/GeneralUtilities/app/foreorder-employee-android-master.generalutilities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Libraries/ImageUtility/app/foreorder-employee-android-master.imageutility.iml" filepath="$PROJECT_DIR$/.idea/modules/Libraries/ImageUtility/app/foreorder-employee-android-master.imageutility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Libraries/JsonParserCallback/app/foreorder-employee-android-master.jsonparsercallback.iml" filepath="$PROJECT_DIR$/.idea/modules/Libraries/JsonParserCallback/app/foreorder-employee-android-master.jsonparsercallback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Libraries/LocationUtilities/app/foreorder-employee-android-master.locationutilities.iml" filepath="$PROJECT_DIR$/.idea/modules/Libraries/LocationUtilities/app/foreorder-employee-android-master.locationutilities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Libraries/NoInternetView/app/foreorder-employee-android-master.nointernetview.iml" filepath="$PROJECT_DIR$/.idea/modules/Libraries/NoInternetView/app/foreorder-employee-android-master.nointernetview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Libraries/PermissionUtilities/app/foreorder-employee-android-master.permissionutilities.iml" filepath="$PROJECT_DIR$/.idea/modules/Libraries/PermissionUtilities/app/foreorder-employee-android-master.permissionutilities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Libraries/RealmUtilities/app/foreorder-employee-android-master.realmutilities.iml" filepath="$PROJECT_DIR$/.idea/modules/Libraries/RealmUtilities/app/foreorder-employee-android-master.realmutilities.iml" />
+    </modules>
+  </component>
+</project>

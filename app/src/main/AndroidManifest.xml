@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rhinoactive.foreorder_golf_employee">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.rhinoactive.foreorder_golf_employee.utils.ForeOrderApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <meta-data
+            android:name="com.onesignal.NotificationOpened.DEFAULT"
+            android:value="DISABLE" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="@string/file_provider_authority"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+
+        <receiver
+            android:name="com.rhinoactive.foreorder_golf_employee.receivers.ForeOrderLocationReceiver"
+            android:enabled="true"
+            android:label="UserLocationUpdateReceiver">
+            <intent-filter>
+                <action android:name="com.rhinoactive.foreorder_golf_employee.NEW_LOCATION_INTENT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.rhinoactive.foreorder_golf_employee.activities.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rhinoactive.foreorder_golf_employee.activities.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.rhinoactive.foreorder_golf_employee.activities.ChangeClubActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.rhinoactive.foreorder_golf_employee.activities.OrderActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
